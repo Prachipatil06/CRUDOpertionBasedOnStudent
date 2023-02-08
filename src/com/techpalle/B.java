@@ -1,6 +1,11 @@
-package com.techpalle
+package com.techpalle;
 
 public class B
 {
-  public int i=100;
+  public int i;
+  
+  public B(int i)
+  {
+	  this.i=i;
+  }
 }
